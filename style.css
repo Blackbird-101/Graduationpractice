@@ -5,3 +5,80 @@
 	align-items: center;
 	justify-content: center;
 }
+.auth_form {
+	padding: 40px;
+	background: rgb(240, 240, 240, 0.95);
+	border-radius: 15px;
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.states li {
+	text-decoration: none;
+	color: #222;
+	margin-top: 20px;
+	padding: 20px;
+	border-radius: 15px;
+	transition: 0.5s;
+}
+.states li:hover .linkNews img{
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.states {
+	text-decoration: none;
+	color: #222;
+	list-style-type: none;
+}
+.states li a {
+	text-decoration: none;
+	color: #222;
+
+}
+.linkNews{
+	  text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.linkNews img {
+	transition: 0.5s;
+}
+.statesList {
+ 	text-decoration: none;
+	color: #222;
+	list-style-type: none;
+}
+.statesList li{
+	margin-top: 10px;
+	border-radius:15px;
+ 	padding: 15px;
+ 	transition: 0.15s;
+}
+.statesList li:hover{
+	border-bottom:2px solid red;
+	cursor: pointer;
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.listPointStates {
+	text-align:left !important;
+ 	text-decoration: none;
+	color: #222;
+	list-style-type: none;
+}
+.headerList {
+	list-style-type: none;
+	color:#222;
+}
+.headerList li a{
+	margin-left:15px !important;
+	color:#222 !important;
+	transition: 0.35s !important;
+	border-radius: 5px !important;
+}
+.headerList li a:hover {
+	background:red !important;
+	color:#fff !important; 
+}
+@media screen and (max-width: 760px) {
+  .sidebar {
+    height: 100% !important;
+  }
+}
